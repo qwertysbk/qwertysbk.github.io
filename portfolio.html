@@ -9,7 +9,7 @@
             line-height: 1.6;
             margin: 20px;
             padding: 10px;
-            background-color: #f1f1f1;
+            background-color: #f2f2f2;
         }
 
         h1 {
@@ -42,9 +42,14 @@
         img {
             float: right;
             margin: 0 0 10px 20px;
-            border: 2px solid #008080;
+            border: 4px solid #008080;
             border-radius: 50%;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
         }
 
         dl {
@@ -62,6 +67,12 @@
             margin-bottom: 5px;
         }
 
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin-top: 0;
+        }
+
         b {
             color: #008080;
         }
@@ -69,12 +80,13 @@
 </head>
 
 <body>
-    <img src="Bharath Kumar S.jpg" alt="Message_error" height="130" width="100">
+    <img src="Bharath Kumar S.jpg" alt="Profile Picture" height="150" width="150">
     <h1>Bharath Kumar S</h1>
-    <p>Websites:
-        <a href="https://www.qwertysbk.github.com">Github</a>
-        <a href="https://www.linkedin.com/in/qwertysbk">LinkedIn</a>
-    </p>
+    <dl>
+        <dt>Websites:</dt>
+        <dd><a href="https://www.qwertysbk.github.com">Github</a></dd>
+        <dd><a href="https://www.linkedin.com/in/qwertysbk">LinkedIn</a></dd>
+    </dl>
     <p>Mail ID : <a href="mailto:bharath.21cse@cambridge.edu.in">bharath.21cse@cambridge.edu.in</a></p>
     <h2>Academic Details</h2>
     <dl>
@@ -95,21 +107,17 @@
         <li>Python</li>
         <li>HTML and CSS</li>
         <li>C Programming</li>
-        <li>Java</li>
         <li>OpenCV</li>
-        <li>Machine Learning</li>
     </ul>
     <h2>Soft Skills</h2>
     <ul>
         <li>Leadership</li>
-        <li>Team Work</li>
         <li>Team Management</li>
-        <li>Organizational Skills</li>
         <li>Communication</li>
+        <li>Community Management</li>
         <li>Time Management</li>
         <li>Problem Solving</li>
         <li>Adaptability</li>
-        <li>Decision-Making</li>
     </ul>
     <h2>Hobbies</h2>
     <ul>
@@ -127,4 +135,5 @@
     <h2>Declaration</h2>
     <p>I hereby declare that all information mentioned above is of my knowledge.</p>
 </body>
+
 </html>
